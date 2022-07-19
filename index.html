@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <title>Speech Recognition</title>
+    <meta charset="UTF-8">
+    <style>
+        .output{
+            display: block;
+            width: 80%;
+            height: 400px;
+            text-align: center;
+            font-size: xx-large;
+            border: none;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <script src = "script.js"></script>
+
+    <div align="center">
+        <br>
+        <h1>تحويل الكلام إلى نص</h1>
+        <button onclick="startt()">ابدأ</button>
+        <br>
+        <p id = "instructions">انقر للتسجيل</p>
+        <br>
+        <textarea id = "txtarea" class="output"></textarea>
+    </div>
+</body>
+</html>
